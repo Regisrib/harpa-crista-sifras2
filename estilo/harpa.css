@@ -17,60 +17,72 @@ p {
 }
 
 header {
-    background:linear-gradient(black, gray);
+    width: 100vw;
+    background:linear-gradient(rgb(58, 35, 4), rgb(198, 139, 28));
+    color:  rgb(219, 204, 67);
     padding-bottom: 10px; 
 }
 
 header > a {
-    
+    background:linear-gradient(rgb(198, 139, 28),rgb(58, 35, 4));
+    color:  rgb(219, 204, 67);
     text-align: left;
+    border-radius: 8px;
+    padding:0cqi 10px;
 }
 
 header > h1,h3 {
-    padding: 10px;
+    padding:5px 100px;
     margin: auto;
     text-align: center;
     font-size: 2rem;
-    color: rgb(206, 227, 241);
+    color:  rgb(219, 204, 67);
 }
 
 header  > p {
     padding-bottom: 20px, 20px;
     text-align: center;
     margin: auto;
-    color:rgb(206, 227, 241);
+    background:radial-gradient(rgb(198, 139, 28),rgb(58, 35, 4));
+    color:  rgb(219, 204, 67);
 
    
 }
 
 header > a {
     margin-left: 30px;
-    color: rgb(206, 227, 241);
+    
+    color:  rgb(235, 213, 14);
     text-decoration: none;
     font-size: 1.5rem;
     
 }
 
 main {
+    width: 100vw;
     margin: auto;
     text-align: center;
-background-color:rgb(206, 227, 241);
+    background-color:rgb(254, 254, 254);
+    margin: auto;
+    text-align: center;
 }
+
 
 main > p {
     font-size: 2rem;
     margin: auto;
     text-align: center;
+    
 }
 
 footer  {
     margin: 0px;
     padding: 20px;
-    background:linear-gradient(black, gray);
    
+    background:linear-gradient(rgb(198, 139, 28),rgb(58, 35, 4) );
 }
 
 footer > p {
-    color: rgb(206, 227, 241);
+    color:  rgb(219, 204, 67);
     padding-bottom: 20px;
 }
