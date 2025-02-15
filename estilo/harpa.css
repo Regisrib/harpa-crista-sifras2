@@ -11,13 +11,13 @@ html,body {
 
 b {
     font-size: 1.5rem;
-    color: red;
+    color: rgb(158, 98, 14);
 }
 
 p {
     margin-left: 90px;
     font-size: 1.5rem;
-    color:rgb(99, 44, 44);
+    color:rgb(8, 8, 8);
 }
 
 header {
@@ -35,31 +35,51 @@ header > a {
     padding:0cqi 10px;
 }
 
-header > h1,h3 {
-    padding:5px 100px;
+header > h1 {
+    padding:20px 100px;
     margin: auto;
     text-align: center;
     font-size: 2rem;
-    color:  rgb(219, 204, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(233, 228, 185);
 }
+
+header > h3 {
+    font: size 0.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    border-radius: 10px;
+    padding:1px 20px;
+    text-align:center;
+    font-size: 2rem;
+    color: rgb(44, 43, 42);
+    background:radial-gradient(rgb(247, 248, 247),rgb(34, 16, 3));
+}   
+
 
 header  > p {
     padding-bottom: 20px, 20px;
+    font-size: 3.0rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin: auto;
     background:radial-gradient(rgb(198, 139, 28),rgb(58, 35, 4));
-    color:  rgb(219, 204, 67);
+    color: rgb(233, 228, 185) ;
+    
 
    
 }
 
 header > a {
-    margin-left: 30px;
-    
-    color:  rgb(235, 213, 14);
+    margin-left: 20px;    
+    color:  rgb(239, 239, 237);
     text-decoration: none;
     font-size: 1.5rem;
-    
+   }
+
+body {
+    width: 100vw;
+    margin: 0px;
 }
 
 main {
@@ -67,21 +87,17 @@ main {
     margin: auto;
     text-align: center;
     background-color:rgb(254, 254, 254);
-    margin: auto;
-    text-align: center;
-}
+   }
 
 
 main > p {
     font-size: 2rem;
-    margin: 50%;
     text-align: center;
-    width: 50vw;
-  
-}
+ }
 
 main > b {
-   
+ 
+}
 
 footer  {
     margin: 0px;
@@ -91,6 +107,10 @@ footer  {
 }
 
 footer > p {
+    background:linear-gradient(  rgb(198, 139, 28),rgb(58, 35, 4));
     color:  rgb(219, 204, 67);
-    padding-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
 }
