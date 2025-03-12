@@ -13,6 +13,7 @@ html,body {
 b {
     font-size: 1.5rem;
     color: rgb(30, 40, 233);
+    line-height: 2;
   
 
 
@@ -23,6 +24,7 @@ p {
     margin-left: 90px;
     font-size: 1.5rem;
     color:rgb(8, 8, 8);
+    line-height: 2;
 }
 
 header {
