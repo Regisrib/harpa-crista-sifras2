@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 *{
-margin: 0px;
-padding: 0px;
-
+    margin: 0px;
+    padding: 0px;
 }
 
 html,body {
@@ -12,19 +11,15 @@ html,body {
 
 b {
     font-size: 1.5rem;
-    color: rgb(30, 40, 233);
-    line-height: 2;
-  
-
-
-   
+    color: rgb(24, 165, 221);
+    line-height: 1;   
 }
 
 p {
     margin-left: 90px;
     font-size: 1.5rem;
     color:rgb(8, 8, 8);
-    line-height: 2;
+    line-height: 2;    
 }
 
 header {
@@ -40,15 +35,15 @@ header > a {
     background:linear-gradient(rgb(14, 14, 14), rgb(244, 240, 240));
     color: rgb(143, 211, 248);;
     text-align: left;
-    border-radius: 8px;
-    padding:0cqi 10px;
+    border-radius: 6px;
+    padding:0 10px;
 }
 
 header > h1 {
     padding:20px 100px;
     margin: auto;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.9rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background:linear-gradient(rgb(23, 23, 22), rgb(247, 242, 242));
     color: rgb(143, 211, 248);
@@ -58,43 +53,41 @@ header > h3 {
     font: size 0.5em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
-    border-radius: 10px;
     padding:1px 20px;
     text-align:center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background:linear-gradient(rgb(248, 248, 246), rgb(17, 17, 17));
-    color: rgb(143, 211, 248);
+    color: rgb(243, 244, 241);
+    margin: 0 650px;
 }   
 
 
 header  > p {
     padding-bottom: 20px, 20px;
-    font-size: 3.0rem;
+    font-size: 2.0rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin: auto;
     background:linear-gradient(rgb(248, 248, 246), rgb(17, 17, 17));
-    color: rgb(143, 211, 248);
-    
-
-   
+    color: rgb(143, 211, 248);   
 }
 
 header > a {
+    margin-bottom: 10px;
     margin-left: 20px;    
     color:  rgb(239, 239, 237);
     text-decoration: none;
     font-size: 1.5rem;
-   }
+}
 
-   a:hover {
+a:hover {
     color: rgb(117, 229, 246);
     background:linear-gradient(rgb(252, 247, 247), rgb(14, 13, 13));
    }
 
 body {
     width: 100vw;
-    margin: 0px;
+   
 }
 
 main {
@@ -102,20 +95,23 @@ main {
     margin: auto;
     text-align: center;
     background-color:rgb(254, 254, 254);
-   }
+}
 
-
-main > p {
-    font-size: 2rem;
+p {
+    font-size: 1.7rem;
     text-align: center;
- }
+    margin: 20px;
+}
 
-main > b {
- 
+b {
+    margin-left:50px;
+    margin-right: 35px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer  {
-      padding: 10px;
+    padding: 10px;
     background:linear-gradient(rgb(248, 248, 246), rgb(17, 17, 17));
     color: rgb(143, 211, 248);
 }
