@@ -8,6 +8,7 @@
 html,body {
     width: 100vw;
 }
+   
 
 b {
     font-size: 1.5rem;
@@ -24,7 +25,7 @@ p {
 
 header {
     width: 100vw;
-    background:linear-gradient(rgb(58, 35, 4), rgb(255, 253, 250));
+    background:linear-gradient(rgb(129, 127, 124), rgb(79, 78, 77));
     color:  rgb(27, 27, 25);
     padding-bottom: 10px;
     position: relative;
