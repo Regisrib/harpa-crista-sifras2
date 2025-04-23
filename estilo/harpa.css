@@ -59,7 +59,7 @@ header > h3 {
     font-size: 1.5rem;
     
     color:rgb(7, 47, 86);
-    margin: 0 650px;
+    margin: auto;
 }   
 
 
@@ -114,12 +114,12 @@ b {
 
 footer  {
     padding: 10px;
-    background:linear-gradient(rgb(248, 248, 246), rgb(17, 17, 17));
-    color: rgb(143, 211, 248);
+    background-color: rgb(7, 47, 86);
+    color: rgb(255, 255, 255);
 }
 
 footer > p {
-    color: rgb(143, 211, 248);
+    color: rgb(255, 255, 255);
     border-radius: 10px 10px 0px 0px;
     text-align: center;   
     font-size: 1.5rem;
